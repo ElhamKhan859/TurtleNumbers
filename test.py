@@ -1,0 +1,180 @@
+import turtle
+
+drawing_board = turtle.Screen()
+drawing_board.bgcolor("grey")
+drawing_board.title("My board")
+mouse = turtle.Turtle()
+
+def draw_number_1(pen_size, size):
+    mouse.width(pen_size)
+    mouse.down()
+    mouse.right(90)
+    mouse.forward(10*size*2)
+    mouse.up()
+    mouse.home()
+
+
+def draw_number_2(pen_size, size):
+    mouse.width(pen_size)
+    mouse.down()
+    mouse.forward(10*size)
+    mouse.right(90)
+    mouse.forward(10*size)
+    mouse.right(90)
+    mouse.forward(10*size)
+    mouse.left(90)
+    mouse.forward(10*size)
+    mouse.left(90)
+    mouse.forward(10*size)
+    mouse.up()
+    mouse.home()
+
+def draw_number_3(pen_size, size):
+    mouse.width(pen_size)
+    mouse.down()
+    mouse.forward(10*size)
+    mouse.right(90)
+    mouse.forward(10*size)
+    mouse.right(90)
+    mouse.forward(10*size)
+    mouse.back(10*size)
+    mouse.left(90)
+    mouse.forward(10*size)
+    mouse.right(90)
+    mouse.forward(10*size)
+    mouse.up()
+    mouse.home()
+
+
+def draw_number_4(pen_size, size):
+    mouse.width(pen_size)
+    mouse.down()
+    mouse.right(90)
+    mouse.forward(10*size)
+    mouse.left(90)
+    mouse.forward(10*size)
+    mouse.left(90)
+    mouse.forward(10*size)
+    mouse.back(10*size)
+    mouse.back(10*size)
+    mouse.up()
+    mouse.home()
+
+
+def draw_number_5(pen_size, size):
+    mouse.width(pen_size)
+    mouse.down()
+    mouse.forward(10*size)
+    mouse.back(10*size)
+    mouse.right(90)
+    mouse.forward(10*size)
+    mouse.left(90)
+    mouse.forward(10*size)
+    mouse.right(90)
+    mouse.forward(10*size)
+    mouse.right(90)
+    mouse.forward(10*size)
+    mouse.up()
+    mouse.home()
+
+
+def draw_number_6(pen_size, size):
+    mouse.width(pen_size)
+    mouse.down()
+    mouse.forward(10*size)
+    mouse.back(10*size)
+    mouse.right(90)
+    mouse.forward(10*size)
+    mouse.forward(10*size)
+    mouse.left(90)
+    mouse.forward(10*size)
+    mouse.left(90)
+    mouse.forward(10*size)
+    mouse.left(90)
+    mouse.forward(10*size)
+    mouse.up()
+    mouse.home()
+
+
+def draw_number_7(pen_size, size):
+    mouse.width(pen_size)
+    mouse.down()
+    mouse.forward(10*size)
+    mouse.right(90)
+    mouse.forward(10*size)
+    mouse.forward(10*size)
+    mouse.up()
+    mouse.home()
+
+
+def draw_number_8(pen_size, size):
+    mouse.width(pen_size)
+    mouse.down()
+    mouse.forward(10*size)
+    mouse.right(90)
+    mouse.forward(10*size)
+    mouse.right(90)
+    mouse.forward(10*size)
+    mouse.left(90)
+    mouse.forward(10*size)
+    mouse.left(90)
+    mouse.forward(10*size)
+    mouse.left(90)
+    mouse.forward(10*size)
+    mouse.left(90)
+    mouse.forward(10*size)
+    mouse.right(90)
+    mouse.forward(10*size)
+    mouse.up()
+    mouse.home()
+
+
+def draw_number_9(pen_size, size):
+    mouse.width(pen_size)
+    mouse.down()
+    mouse.forward(10*size)
+    mouse.right(90)
+    mouse.forward(10*size)
+    mouse.right(90)
+    mouse.forward(10*size)
+    mouse.right(90)
+    mouse.forward(10*size)
+    mouse.right(90)
+    mouse.forward(10*size)
+    mouse.right(90)
+    mouse.forward(10*size)
+    mouse.forward(10*size)
+    mouse.right(90)
+    mouse.forward(10*size)
+    mouse.up()
+    mouse.home()
+
+
+def draw_number_0(pen_size, size):
+    mouse.width(pen_size)
+    mouse.down()
+    mouse.forward(10*size)
+    mouse.right(90)
+    mouse.forward(10*size*2)
+    mouse.right(90)
+    mouse.forward(10*size)
+    mouse.right(90)
+    mouse.forward(10*size*2)
+    mouse.up()
+    mouse.home()
+
+
+
+#draw_number_1(5, 10)
+#draw_number_2(5, 10)
+#draw_number_3(5, 10)
+#draw_number_4(5, 10)
+#draw_number_5(5, 10)
+#draw_number_6(5, 10)
+#draw_number_7(5, 10)
+#draw_number_8(5, 10)
+#draw_number_9(5, 10)
+draw_number_0(5, 10)
+
+
+turtle.done()
